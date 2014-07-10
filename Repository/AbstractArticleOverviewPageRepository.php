@@ -29,7 +29,7 @@ abstract class AbstractArticleOverviewPageRepository extends EntityRepository
             INNER JOIN
                 kuma_nodes n ON n.id = nt.node_id
             WHERE
-                n.deleted = 0
+                n.deleted_at IS NULL
             AND
                 n.ref_entity_name = :entity_name
         ";
