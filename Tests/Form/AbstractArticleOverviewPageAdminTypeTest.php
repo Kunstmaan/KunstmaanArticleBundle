@@ -8,9 +8,6 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\Form\FormBuilder;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-/**
- * Class AbstractArticleOverviewPageAdminTypeTest
- */
 class AbstractArticleOverviewPageAdminTypeTest extends TestCase
 {
     /**

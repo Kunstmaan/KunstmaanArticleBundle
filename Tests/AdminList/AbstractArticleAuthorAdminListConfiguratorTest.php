@@ -7,9 +7,6 @@ use Kunstmaan\AdminBundle\Helper\Security\Acl\AclHelper;
 use Kunstmaan\ArticleBundle\AdminList\AbstractArticleAuthorAdminListConfigurator;
 use PHPUnit\Framework\TestCase;
 
-/**
- * Class AbstractArticleAuthorAdminListConfiguratorTest
- */
 class AbstractArticleAuthorAdminListConfiguratorTest extends TestCase
 {
     /**
@@ -17,10 +14,6 @@ class AbstractArticleAuthorAdminListConfiguratorTest extends TestCase
      */
     protected $object;
 
-    /**
-     * Sets up the fixture, for example, opens a network connection.
-     * This method is called before a test is executed.
-     */
     protected function setUp(): void
     {
         $em = $this->createMock(EntityManager::class);
