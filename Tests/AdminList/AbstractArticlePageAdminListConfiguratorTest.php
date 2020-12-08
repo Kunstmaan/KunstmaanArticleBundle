@@ -34,9 +34,6 @@ class Configurator extends AbstractArticlePageAdminListConfigurator
     }
 }
 
-/**
- * Class AbstractArticlePageAdminListConfiguratorTest
- */
 class AbstractArticlePageAdminListConfiguratorTest extends TestCase
 {
     /**
@@ -49,10 +46,6 @@ class AbstractArticlePageAdminListConfiguratorTest extends TestCase
      */
     protected $em;
 
-    /**
-     * Sets up the fixture, for example, opens a network connection.
-     * This method is called before a test is executed.
-     */
     protected function setUp(): void
     {
         $em = $this->createMock(EntityManager::class);
